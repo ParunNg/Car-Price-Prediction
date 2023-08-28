@@ -42,16 +42,30 @@ def one_hot_transform(encoder, dataframe, feature):
 
 # App layout
 app.layout = dbc.Container([
+    html.Div([
+        html.H1('Car Price Prediction', style={"margin-bottom":'20px'}),
+
+        html.P("Having trouble setting the perfect price for your car...? No worries, \
+               our car price prediction tool provides a means for finding a good selling price of your car based on the car specifications. \
+               The car price predictions are based on the output of the machine learning model that we have painstakingly created."),
+
+        html.P("If you want to try out our nifty little tool, simply fill in the car max power (BHP), select the car manufacture year, \
+               the fuel type that the car uses (currently we only supports diesel and petrol) and the car brand in the form below. \
+               Once done, click on the \"calculate selling price\" button and voila! A suitable selling price of the car will be shown below, \
+               highlighted in blue.")
+    ],
+    style={"margin":'30px', "margin-bottom":'20px', "display":'inline-block'}),
+
     dbc.Row([
         html.Div([
-            html.H5("Max Power "),
+            html.H5("Max Power"),
             dbc.Label("Enter the max power of the car (must always be positive)"),
             
-            dbc.Input(id="max_power", type="number", min=0, placeholder="Put a value for max power", style={"margin-bottom": '20px'}),
+            dbc.Input(id="max_power", type="number", min=0, placeholder="Max Power", style={"margin-bottom": '20px'}),
 
             html.H5("Year"),
-            dbc.Label("Enter the year of manufacture the car (must be a valid year)"),
-            dbc.Input(id="year", type="number", min=0, placeholder="Put a value for year", style={"margin-bottom": '20px'}),
+            dbc.Label("Enter the manufacture year of the car"),
+            dcc.Dropdown(id="year", options=[*range(1983, 3000)], value=1983, style={"margin-bottom": '20px'}), # 1983 is the minimum year in the cars dataset
 
             html.H5("Fuel"),
             dbc.Label("Enter the fuel type of the car"),
@@ -64,13 +78,12 @@ app.layout = dbc.Container([
             html.Div([dbc.Button(id="submit", children="Calculate selling price", color="primary"),
             html.Br(),
 
-            html.Output(id="selling_price", children="", style={"margin-top": '10px', "background-color": 'blue', "color":'white'})
+            html.Output(id="selling_price", children="", style={"margin-top": '10px', "background-color": 'navy', "color":'white'})
             ],
             style={"margin-top": "30px"})
         ],
-        className="mb-3", style={"margin":'30px', "display":'inline-block', "width": '700px'})
+        style={"margin-right":'30px', "margin-left":'30px', "display":'inline-block', "width": '700px'})
     ])
-
 ], fluid=True)
 
 
@@ -93,8 +106,8 @@ def calculate_selling_price(max_power, year, fuel, brand, submit):
                 'fuel': fuel,
                 'brand': brand}
     
-    # If user left an input value for a feature blank OR if user input incorrect value for numerical feature (e.g, negative) then...
-    # the value will be set to the default value of that feature
+    # If user left an input value for a feature blank OR if they input an incorrect value for numerical feature (e.g, negative value) then...
+    # the default value that we have previously set will be used instead
     for feature in features:
         if not features[feature]:
             features[feature] = default_vals[feature]
@@ -105,9 +118,11 @@ def calculate_selling_price(max_power, year, fuel, brand, submit):
 
     X = pd.DataFrame(features, index=[0])
 
+    # Encoding and normalization
     X[num_cols] = scaler.transform(X[num_cols])
     X['fuel'] = fuel_le.transform(X['fuel'])
     X = one_hot_transform(brand_ohe, X, 'brand')
+
     y = np.round(np.exp(model.predict(X)), 2)
 
     return [f"Selling price is: {y[0]}"] + list(features.values())
