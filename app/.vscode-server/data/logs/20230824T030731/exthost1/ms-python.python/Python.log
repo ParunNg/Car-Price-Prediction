@@ -1,0 +1,26 @@
+2023-08-24 03:07:48.793 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-08-24 03:07:48.794 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-08-24 03:07:48.794 [info] Experiment 'pythonSurveyNotification' is active
+2023-08-24 03:07:50.322 [info] Test server listening.
+2023-08-24 03:07:50.338 [info] > conda info --json
+2023-08-24 03:07:50.387 [info] Found: /bin/python3 --> /bin/python3.11
+2023-08-24 03:07:50.392 [info] Found: /bin/python3.11 --> /bin/python3.11
+2023-08-24 03:07:50.474 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2023-08-24 03:07:50.475 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2023-08-24 03:07:50.541 [info] > /usr/local/bin/python -I ./.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/interpreterInfo.py
+2023-08-24 03:07:50.543 [info] Found: /usr/local/bin/python --> /usr/local/bin/python3.10
+2023-08-24 03:07:50.544 [info] Found: /usr/local/bin/python3 --> /usr/local/bin/python3.10
+2023-08-24 03:07:50.546 [info] Found: /usr/local/bin/python3.10 --> /usr/local/bin/python3.10
+2023-08-24 03:07:50.605 [info] > /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/interpreterInfo.py
+2023-08-24 03:07:50.814 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/interpreterInfo.py
+2023-08-24 03:07:50.848 [info] Python interpreter path: /usr/local/bin/python
+2023-08-24 03:07:51.379 [warning] Retry failed, storage update failed for key PYTHON_ENV_INFO_CACHE
+2023-08-24 03:07:51.379 [warning] Retry failed, storage update failed for key PYTHON_ENV_INFO_CACHE
+2023-08-24 03:07:51.379 [warning] Retry failed, storage update failed for key PYTHON_ENV_INFO_CACHE
+2023-08-24 03:07:51.380 [warning] Retry failed, storage update failed for key PYTHON_ENV_INFO_CACHE
+2023-08-24 03:07:51.380 [warning] Retry failed, storage update failed for key PYTHON_ENV_INFO_CACHE
+2023-08-24 03:07:51.972 [warning] Retry failed, storage update failed for key PYTHON_ENV_INFO_CACHE
+2023-08-24 03:07:51.972 [warning] Retry failed, storage update failed for key PYTHON_ENV_INFO_CACHE
+2023-08-24 03:07:52.209 [warning] Retry failed, storage update failed for key PYTHON_ENV_INFO_CACHE
+2023-08-24 03:07:52.210 [warning] Retry failed, storage update failed for key PYTHON_ENV_INFO_CACHE
+2023-08-24 03:07:53.848 [info] Starting Pylance language server.

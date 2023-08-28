@@ -1,0 +1,185 @@
+Visual Studio Code (1.81.1, attached-container, desktop)
+Jupyter Extension Version: 2023.7.1002162226.
+Python Extension Version: 2023.14.0.
+Platform: linux (x64).
+Workspace folder /root, Home = /root
+13:41:01.302 [info] User belongs to experiment group 'FastKernelPicker'
+13:41:01.302 [info] User belongs to experiment group 'NewRemoteUriStorage'
+13:41:01.302 [info] User belongs to experiment group 'PasswordManager'
+13:41:01.302 [info] User belongs to experiment group 'NewJupyterSession'
+13:41:01.786 [info] Start refreshing Kernel Picker (1693057261786)
+13:41:01.801 [info] Using Pylance
+13:41:04.140 [warn] Failed to get activated env vars for /usr/local/bin/python in 792ms
+13:41:04.197 [info] Process Execution: /usr/local/bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+13:41:04.279 [info] Process Execution: /usr/local/bin/python -m pip list
+13:41:04.347 [info] End refreshing Kernel Picker (1693057261786)
+13:42:33.854 [info] Start refreshing Interpreter Kernel Picker
+13:42:33.854 [info] Start refreshing Kernel Picker (1693057353854)
+13:42:34.005 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher  (Python Path: /usr/local/bin/python, Unknown, 3.10.12) for '~/code/Car Price Prediction.ipynb' (disableUI=true)
+13:42:34.169 [warn] Failed to get activated env vars for /usr/local/bin/python in 134ms
+13:42:34.183 [info] Process Execution: /usr/local/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+13:42:34.268 [info] Process Execution: /usr/local/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"bfe6426e-0e5a-492e-b5fe-b7aa5790069d" --shell=9002 --transport="tcp" --iopub=9004 --f=~/.local/share/jupyter/runtime/kernel-v2-2617WflK2hQM2hl.json
+    > cwd: ~/code
+13:42:35.414 [info] ipykernel version & path 6.25.1, /usr/local/lib/python3.10/site-packages/ipykernel/__init__.py for /usr/local/bin/python
+13:42:36.469 [info] End refreshing Kernel Picker (1693057353854)
+13:42:37.002 [warn] StdErr from Kernel Process /usr/local/lib/python3.10/site-packages/traitlets/traitlets.py:2548: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use 'hmac-sha256' instead of '"hmac-sha256"' if you require traitlets >=5.
+  warn(
+13:42:37.003 [warn] StdErr from Kernel Process /usr/local/lib/python3.10/site-packages/traitlets/traitlets.py:2499: FutureWarning: Supporting extra quotes around Bytes is deprecated in traitlets 5.0. Use 'bfe6426e-0e5a-492e-b5fe-b7aa5790069d' instead of 'b"bfe6426e-0e5a-492e-b5fe-b7aa5790069d"'.
+  warn(
+13:42:37.532 [info] Started Kernel Python 3.10.12 (pid: 1820)
+13:42:37.533 [info] Started new session 09ffe263-643e-430a-b5e3-c9880dbbeb3b
+13:42:37.837 [info] Process Execution: /usr/local/bin/python ~/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/pythonFiles/printJupyterDataDir.py
+14:07:12.509 [info] Handle Execution of Cells 0 for ~/code/Car Price Prediction.ipynb
+14:07:12.544 [info] Kernel acknowledged execution of cell 0 @ 1693058832532
+14:07:14.462 [info] End cell 0 execution @ 1693058834457, started @ 1693058832532, elapsed time = 1.925s
+14:07:34.910 [info] Handle Execution of Cells 77 for ~/code/Car Price Prediction.ipynb
+14:07:34.926 [info] Kernel acknowledged execution of cell 77 @ 1693058854918
+14:07:34.937 [info] End cell 77 execution @ 1693058854931, started @ 1693058854918, elapsed time = 0.013s
+14:07:37.506 [info] Handle Execution of Cells 79 for ~/code/Car Price Prediction.ipynb
+14:07:37.528 [info] Kernel acknowledged execution of cell 79 @ 1693058857515
+14:07:37.858 [info] End cell 79 execution @ 1693058857856, started @ 1693058857515, elapsed time = 0.341s
+14:07:44.697 [info] Handle Execution of Cells 80 for ~/code/Car Price Prediction.ipynb
+14:07:44.708 [info] Kernel acknowledged execution of cell 80 @ 1693058864703
+14:07:44.738 [info] End cell 80 execution @ 1693058864732, started @ 1693058864703, elapsed time = 0.029s
+14:07:46.687 [info] Handle Execution of Cells 81 for ~/code/Car Price Prediction.ipynb
+14:07:46.736 [info] Kernel acknowledged execution of cell 81 @ 1693058866696
+14:07:47.117 [info] End cell 81 execution @ 1693058867112, started @ 1693058866696, elapsed time = 0.416s
+14:07:47.118 [warn] Cancel all remaining cells due to cancellation or failure in execution
+14:08:00.557 [info] Handle Execution of Cells 81 for ~/code/Car Price Prediction.ipynb
+14:08:00.595 [info] Kernel acknowledged execution of cell 81 @ 1693058880562
+14:08:00.605 [info] End cell 81 execution @ 1693058880599, started @ 1693058880562, elapsed time = 0.037s
+14:08:00.606 [warn] Cancel all remaining cells due to cancellation or failure in execution
+14:08:20.793 [info] Handle Execution of Cells 81 for ~/code/Car Price Prediction.ipynb
+14:08:20.812 [info] Kernel acknowledged execution of cell 81 @ 1693058900805
+14:08:20.818 [info] End cell 81 execution @ 1693058900812, started @ 1693058900805, elapsed time = 0.007s
+14:08:22.636 [info] Handle Execution of Cells 82 for ~/code/Car Price Prediction.ipynb
+14:08:22.667 [info] Kernel acknowledged execution of cell 82 @ 1693058902645
+14:08:22.749 [info] End cell 82 execution @ 1693058902739, started @ 1693058902645, elapsed time = 0.094s
+14:08:22.750 [warn] Cancel all remaining cells due to cancellation or failure in execution
+14:22:00.523 [info] Handle Execution of Cells 80 for ~/code/Car Price Prediction.ipynb
+14:22:00.581 [info] Kernel acknowledged execution of cell 80 @ 1693059720554
+14:22:00.595 [info] End cell 80 execution @ 1693059720584, started @ 1693059720554, elapsed time = 0.03s
+14:22:02.041 [info] Handle Execution of Cells 81 for ~/code/Car Price Prediction.ipynb
+14:22:02.050 [info] Kernel acknowledged execution of cell 81 @ 1693059722048
+14:22:02.062 [info] End cell 81 execution @ 1693059722054, started @ 1693059722048, elapsed time = 0.006s
+14:22:04.172 [info] Handle Execution of Cells 82 for ~/code/Car Price Prediction.ipynb
+14:22:04.202 [info] Kernel acknowledged execution of cell 82 @ 1693059724178
+14:22:04.228 [info] End cell 82 execution @ 1693059724225, started @ 1693059724178, elapsed time = 0.047s
+14:22:04.229 [warn] Cancel all remaining cells due to cancellation or failure in execution
+14:22:58.451 [info] Handle Execution of Cells 83 for ~/code/Car Price Prediction.ipynb
+14:22:58.476 [info] Kernel acknowledged execution of cell 83 @ 1693059778467
+14:22:58.482 [info] End cell 83 execution @ 1693059778475, started @ 1693059778467, elapsed time = 0.008s
+14:24:49.537 [info] Restart requested ~/code/Car Price Prediction.ipynb
+14:24:49.754 [warn] Failed to get activated env vars for /usr/local/bin/python in 195ms
+14:24:49.788 [info] Process Execution: /usr/local/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+14:24:49.808 [info] Process Execution: /usr/local/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9008 --control=9006 --hb=9005 --Session.signature_scheme="hmac-sha256" --Session.key=b"4c5ce2e2-06a3-4303-86e6-ca803c6f4929" --shell=9007 --transport="tcp" --iopub=9009 --f=~/.local/share/jupyter/runtime/kernel-v2-261gB2Fu68CJiJ7.json
+    > cwd: ~/code
+14:24:50.306 [info] ipykernel version & path 6.25.1, /usr/local/lib/python3.10/site-packages/ipykernel/__init__.py for /usr/local/bin/python
+14:24:50.862 [warn] StdErr from Kernel Process /usr/local/lib/python3.10/site-packages/traitlets/traitlets.py:2548: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use 'hmac-sha256' instead of '"hmac-sha256"' if you require traitlets >=5.
+  warn(
+14:24:50.864 [warn] StdErr from Kernel Process /usr/local/lib/python3.10/site-packages/traitlets/traitlets.py:2499: FutureWarning: Supporting extra quotes around Bytes is deprecated in traitlets 5.0. Use '4c5ce2e2-06a3-4303-86e6-ca803c6f4929' instead of 'b"4c5ce2e2-06a3-4303-86e6-ca803c6f4929"'.
+  warn(
+14:24:51.075 [info] Started Kernel Python 3.10.12 (pid: 2163)
+14:24:51.075 [info] Started new session ae7d4983-91b1-4f27-8064-b0b036a3d482
+14:24:51.081 [info] Shutdown old session 09ffe263-643e-430a-b5e3-c9880dbbeb3b
+14:24:51.082 [info] Dispose Kernel process 1820.
+14:24:56.652 [info] Handle Execution of Cells 0,2,3,6,7,8,9,10,12,13,14,16,18,20,22,23,24,25,28,30,31,32,33,34,35,36,37,38,39,40,43,45,47,48,49,50,52,53,55,56,58 for ~/code/Car Price Prediction.ipynb
+14:24:56.718 [info] Kernel acknowledged execution of cell 0 @ 1693059896705
+14:24:58.294 [info] End cell 0 execution @ 1693059898288, started @ 1693059896705, elapsed time = 1.583s
+14:24:58.303 [info] Kernel acknowledged execution of cell 2 @ 1693059898298
+14:24:58.428 [info] End cell 2 execution @ 1693059898416, started @ 1693059898298, elapsed time = 0.118s
+14:24:58.440 [info] Kernel acknowledged execution of cell 3 @ 1693059898434
+14:24:58.480 [info] End cell 3 execution @ 1693059898473, started @ 1693059898434, elapsed time = 0.039s
+14:24:58.496 [info] Kernel acknowledged execution of cell 6 @ 1693059898485
+14:24:58.514 [info] End cell 6 execution @ 1693059898502, started @ 1693059898485, elapsed time = 0.017s
+14:24:58.528 [info] Kernel acknowledged execution of cell 7 @ 1693059898520
+14:24:58.546 [info] End cell 7 execution @ 1693059898540, started @ 1693059898520, elapsed time = 0.02s
+14:24:58.560 [info] Kernel acknowledged execution of cell 8 @ 1693059898549
+14:24:58.580 [info] End cell 8 execution @ 1693059898573, started @ 1693059898549, elapsed time = 0.024s
+14:24:58.599 [info] Kernel acknowledged execution of cell 9 @ 1693059898590
+14:24:58.611 [info] End cell 9 execution @ 1693059898607, started @ 1693059898590, elapsed time = 0.017s
+14:24:58.627 [info] Kernel acknowledged execution of cell 10 @ 1693059898616
+14:24:59.022 [info] End cell 10 execution @ 1693059899016, started @ 1693059898616, elapsed time = 0.4s
+14:24:59.044 [info] Kernel acknowledged execution of cell 12 @ 1693059899030
+14:24:59.051 [info] End cell 12 execution @ 1693059899046, started @ 1693059899030, elapsed time = 0.016s
+14:24:59.061 [info] Kernel acknowledged execution of cell 13 @ 1693059899053
+14:24:59.082 [info] End cell 13 execution @ 1693059899074, started @ 1693059899053, elapsed time = 0.021s
+14:24:59.089 [info] Kernel acknowledged execution of cell 14 @ 1693059899085
+14:24:59.507 [info] End cell 14 execution @ 1693059899500, started @ 1693059899085, elapsed time = 0.415s
+14:24:59.722 [info] Kernel acknowledged execution of cell 16 @ 1693059899512
+14:24:59.789 [info] End cell 16 execution @ 1693059899757, started @ 1693059899512, elapsed time = 0.245s
+14:24:59.832 [info] Kernel acknowledged execution of cell 18 @ 1693059899794
+14:24:59.853 [info] End cell 18 execution @ 1693059899846, started @ 1693059899794, elapsed time = 0.052s
+14:24:59.873 [info] Kernel acknowledged execution of cell 20 @ 1693059899857
+14:24:59.907 [info] End cell 20 execution @ 1693059899901, started @ 1693059899857, elapsed time = 0.044s
+14:24:59.953 [info] Kernel acknowledged execution of cell 22 @ 1693059899910
+14:24:59.999 [info] End cell 22 execution @ 1693059899991, started @ 1693059899910, elapsed time = 0.081s
+14:25:00.012 [info] Kernel acknowledged execution of cell 23 @ 1693059900004
+14:25:00.038 [info] End cell 23 execution @ 1693059900030, started @ 1693059900004, elapsed time = 0.026s
+14:25:00.046 [info] Kernel acknowledged execution of cell 24 @ 1693059900042
+14:25:00.074 [info] End cell 24 execution @ 1693059900068, started @ 1693059900042, elapsed time = 0.026s
+14:25:00.097 [info] Kernel acknowledged execution of cell 25 @ 1693059900079
+14:25:01.671 [info] End cell 25 execution @ 1693059901668, started @ 1693059900079, elapsed time = 1.589s
+14:25:01.687 [info] Kernel acknowledged execution of cell 28 @ 1693059901676
+14:25:01.704 [info] End cell 28 execution @ 1693059901701, started @ 1693059901676, elapsed time = 0.025s
+14:25:01.711 [info] Kernel acknowledged execution of cell 30 @ 1693059901707
+14:25:01.718 [info] End cell 30 execution @ 1693059901715, started @ 1693059901707, elapsed time = 0.008s
+14:25:01.733 [info] Kernel acknowledged execution of cell 31 @ 1693059901721
+14:25:01.738 [info] End cell 31 execution @ 1693059901734, started @ 1693059901721, elapsed time = 0.013s
+14:25:01.745 [info] Kernel acknowledged execution of cell 32 @ 1693059901740
+14:25:01.754 [info] End cell 32 execution @ 1693059901750, started @ 1693059901740, elapsed time = 0.01s
+14:25:01.766 [info] Kernel acknowledged execution of cell 33 @ 1693059901758
+14:25:01.777 [info] End cell 33 execution @ 1693059901772, started @ 1693059901758, elapsed time = 0.014s
+14:25:01.794 [info] Kernel acknowledged execution of cell 34 @ 1693059901783
+14:25:01.944 [info] End cell 34 execution @ 1693059901938, started @ 1693059901783, elapsed time = 0.155s
+14:25:01.952 [info] Kernel acknowledged execution of cell 35 @ 1693059901949
+14:25:01.967 [info] End cell 35 execution @ 1693059901959, started @ 1693059901949, elapsed time = 0.01s
+14:25:01.985 [info] Kernel acknowledged execution of cell 36 @ 1693059901972
+14:25:02.073 [info] End cell 36 execution @ 1693059902061, started @ 1693059901972, elapsed time = 0.089s
+14:25:02.088 [info] Kernel acknowledged execution of cell 37 @ 1693059902077
+14:25:02.107 [info] End cell 37 execution @ 1693059902089, started @ 1693059902077, elapsed time = 0.012s
+14:25:02.122 [info] Kernel acknowledged execution of cell 38 @ 1693059902113
+14:25:02.151 [info] End cell 38 execution @ 1693059902140, started @ 1693059902113, elapsed time = 0.027s
+14:25:02.171 [info] Kernel acknowledged execution of cell 39 @ 1693059902156
+14:25:03.899 [info] End cell 39 execution @ 1693059903893, started @ 1693059902156, elapsed time = 1.737s
+14:25:03.910 [info] Kernel acknowledged execution of cell 40 @ 1693059903902
+14:25:08.507 [info] End cell 40 execution @ 1693059908503, started @ 1693059903902, elapsed time = 4.601s
+14:25:08.515 [info] Kernel acknowledged execution of cell 43 @ 1693059908509
+14:25:08.521 [info] End cell 43 execution @ 1693059908517, started @ 1693059908509, elapsed time = 0.008s
+14:25:08.525 [info] Kernel acknowledged execution of cell 45 @ 1693059908523
+14:25:08.539 [info] End cell 45 execution @ 1693059908535, started @ 1693059908523, elapsed time = 0.012s
+14:25:08.548 [info] Kernel acknowledged execution of cell 47 @ 1693059908543
+14:25:08.561 [info] End cell 47 execution @ 1693059908558, started @ 1693059908543, elapsed time = 0.015s
+14:25:08.569 [info] Kernel acknowledged execution of cell 48 @ 1693059908564
+14:25:08.583 [info] End cell 48 execution @ 1693059908575, started @ 1693059908564, elapsed time = 0.011s
+14:25:08.599 [info] Kernel acknowledged execution of cell 49 @ 1693059908591
+14:25:08.613 [info] End cell 49 execution @ 1693059908600, started @ 1693059908591, elapsed time = 0.009s
+14:25:08.625 [info] Kernel acknowledged execution of cell 50 @ 1693059908616
+14:25:08.642 [info] End cell 50 execution @ 1693059908634, started @ 1693059908616, elapsed time = 0.018s
+14:25:08.650 [info] Kernel acknowledged execution of cell 52 @ 1693059908644
+14:25:09.734 [info] End cell 52 execution @ 1693059909728, started @ 1693059908644, elapsed time = 1.084s
+14:25:09.741 [info] Kernel acknowledged execution of cell 53 @ 1693059909739
+14:25:09.761 [info] End cell 53 execution @ 1693059909753, started @ 1693059909739, elapsed time = 0.014s
+14:25:09.773 [info] Kernel acknowledged execution of cell 55 @ 1693059909765
+14:25:10.452 [info] End cell 55 execution @ 1693059910446, started @ 1693059909765, elapsed time = 0.681s
+14:25:10.465 [info] Kernel acknowledged execution of cell 56 @ 1693059910457
+14:25:10.480 [info] End cell 56 execution @ 1693059910473, started @ 1693059910457, elapsed time = 0.016s
+14:25:10.499 [info] Kernel acknowledged execution of cell 58 @ 1693059910485
+14:25:11.225 [info] End cell 58 execution @ 1693059911214, started @ 1693059910485, elapsed time = 0.729s
+14:25:49.653 [info] Dispose Kernel '~/code/Car Price Prediction.ipynb' associated with '~/code/Car Price Prediction.ipynb'
+14:25:49.656 [info] Dispose Kernel process 2163.
+14:25:53.930 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher  (Python Path: /usr/local/bin/python, Unknown, 3.10.12) for '~/code/Car Price Prediction.ipynb' (disableUI=true)
+14:25:54.022 [warn] Failed to get activated env vars for /usr/local/bin/python in 90ms
+14:25:54.031 [info] Process Execution: /usr/local/bin/python -m pip list
+14:25:54.037 [warn] Failed to get activated env vars for /usr/local/bin/python in 90ms
+14:25:54.047 [info] Process Execution: /usr/local/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+14:25:54.060 [info] Process Execution: /usr/local/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"70ce5928-686c-41a7-bc26-92218d1211a7" --shell=9002 --transport="tcp" --iopub=9004 --f=~/.local/share/jupyter/runtime/kernel-v2-261AH98bukFzXPK.json
+    > cwd: ~/code
+14:25:54.719 [info] ipykernel version & path 6.25.1, /usr/local/lib/python3.10/site-packages/ipykernel/__init__.py for /usr/local/bin/python
+14:25:55.097 [info] Dispose Kernel '~/code/Car Price Prediction.ipynb' associated with '~/code/Car Price Prediction.ipynb'
+14:25:55.124 [info] Dispose Kernel process 3123.
+14:25:55.192 [error] Kernel Launcher. launch, Class name = Ky, completed in 1244ms, has a falsy return value, Arg 1: ".jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher", Arg 2: 60000, Arg 3: "~/code/Car Price Prediction.ipynb", Arg 4: "~/code", Arg 5: "" [Canceled: Canceled
+	at Object.e.throwIfCanceled (~/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:2:1745170)
+	at Ky.launchProcess (~/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:24:101971)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async ~/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:24:100416]

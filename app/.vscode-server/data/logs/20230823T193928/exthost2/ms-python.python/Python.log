@@ -1,0 +1,19 @@
+2023-08-23 19:42:26.456 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-08-23 19:42:26.457 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-08-23 19:42:26.457 [info] Experiment 'pythonSurveyNotification' is active
+2023-08-23 19:42:26.457 [info] Test server listening.
+2023-08-23 19:42:26.458 [info] > conda info --json
+2023-08-23 19:42:26.458 [info] Found: /bin/python3 --> /bin/python3.11
+2023-08-23 19:42:26.461 [info] Found: /bin/python3.11 --> /bin/python3.11
+2023-08-23 19:42:26.561 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2023-08-23 19:42:26.564 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2023-08-23 19:42:26.639 [info] > /usr/local/bin/python -I ./.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/interpreterInfo.py
+2023-08-23 19:42:26.670 [info] Found: /usr/local/bin/python --> /usr/local/bin/python3.10
+2023-08-23 19:42:26.676 [info] Found: /usr/local/bin/python3 --> /usr/local/bin/python3.10
+2023-08-23 19:42:26.677 [info] Found: /usr/local/bin/python3.10 --> /usr/local/bin/python3.10
+2023-08-23 19:42:26.761 [info] > /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/interpreterInfo.py
+2023-08-23 19:42:26.794 [info] Python interpreter path: /usr/local/bin/python
+2023-08-23 19:42:27.016 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/interpreterInfo.py
+2023-08-23 19:42:28.453 [warning] Retry failed, storage update failed for key PYTHON_ENV_INFO_CACHE
+2023-08-23 19:42:28.480 [warning] Retry failed, storage update failed for key PYTHON_ENV_INFO_CACHE
+2023-08-23 19:42:29.736 [info] Starting Pylance language server.

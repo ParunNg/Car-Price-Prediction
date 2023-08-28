@@ -1,0 +1,12 @@
+2023-08-24 03:07:53.790 [info] [Info  - 3:07:53 AM] (510) Pylance language server 2023.8.40 (pyright 03f79a81) starting
+2023-08-24 03:07:53.822 [info] [Info  - 3:07:53 AM] (510) Server root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist
+2023-08-24 03:07:53.823 [info] [Info  - 3:07:53 AM] (510) Starting service instance "root"
+2023-08-24 03:07:53.986 [info] [Info  - 3:07:53 AM] (510) Setting pythonPath for service "root": "/usr/local/bin/python"
+2023-08-24 03:07:53.993 [info] [Warn  - 3:07:53 AM] (510) stubPath /root/typings is not a valid directory.
+2023-08-24 03:07:53.995 [info] [Info  - 3:07:53 AM] (510) Assuming Python version 3.10
+2023-08-24 03:07:54.841 [info] [Info  - 3:07:54 AM] (510) No source files found.
+2023-08-24 03:07:57.442 [info] [Info  - 3:07:57 AM] (510) [BG(1)] Long operation: getSemanticTokens full at /root/code/Car Price Prediction.ipynb:pylance-notebook-cell:Y113sdnNjb2RlLXJlbW90ZQ==.py (2056ms)
+2023-08-24 03:08:02.503 [info] [Info  - 3:08:02 AM] (510) [BG(1)] Long operation: checking: /root/code/Car Price Prediction.ipynb:pylance-notebook-cell:Y114sdnNjb2RlLXJlbW90ZQ==.py (4412ms)
+2023-08-24 03:08:02.503 [info] [Info  - 3:08:02 AM] (510) [BG(1)] Long operation: analyzing: /root/code/Car Price Prediction.ipynb:pylance-notebook-cell:Y114sdnNjb2RlLXJlbW90ZQ==.py (4413ms)
+2023-08-24 03:08:03.142 [info] [Info  - 3:08:03 AM] (510) [IDX(2)] Long operation: scan packages /root (6944ms)
+2023-08-24 03:08:06.654 [info] [Info  - 3:08:06 AM] (510) [BG(1)] Long operation: analyzing: /root/code/Car Price Prediction.ipynb:pylance-notebook-cell:pylancePrefixCell.py (8563ms)

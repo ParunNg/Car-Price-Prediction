@@ -1,0 +1,15 @@
+Visual Studio Code (1.81.1, attached-container, desktop)
+Jupyter Extension Version: 2023.7.1002162226.
+Python Extension Version: 2023.14.0.
+Platform: linux (x64).
+Workspace folder /root, Home = /root
+07:25:55.146 [info] User belongs to experiment group 'FastKernelPicker'
+07:25:55.146 [info] User belongs to experiment group 'NewRemoteUriStorage'
+07:25:55.146 [info] User belongs to experiment group 'PasswordManager'
+07:25:55.146 [info] User belongs to experiment group 'NewJupyterSession'
+07:25:55.653 [info] Start refreshing Kernel Picker (1693121155652)
+07:25:55.671 [info] Using Pylance
+07:25:59.052 [warn] Failed to get activated env vars for /usr/local/bin/python in 732ms
+07:25:59.094 [info] Process Execution: /usr/local/bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+07:25:59.144 [info] Process Execution: /usr/local/bin/python -m pip list
+07:25:59.346 [info] End refreshing Kernel Picker (1693121155652)

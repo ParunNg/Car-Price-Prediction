@@ -1,0 +1,13 @@
+version: '3.10.12'
+services:
+   dev:
+    image: app:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./code:/root/code
+      - ./data:/root/data
+      - ./model:/root/model
+      - ./preprocess:/root/preprocess
+      - ./.vscode-server:/root/.vscode-server
