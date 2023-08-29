@@ -1,6 +1,6 @@
 # Car Price Prediction
 
-### Descriptions:
+### Description:
 
 Car price prediction tool provides the means for users to input the car specifications such as car max power (BHP), manufacture year, fuel type and brand in order to find the best selling price of the car. Our tool uses Random Forest Regressor model with $R^2$ score of 93% for the predictions.
 
